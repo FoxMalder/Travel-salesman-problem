@@ -19,7 +19,6 @@ export default class TspCanvas extends Component {
 
   drawCanvas() {
     const { data } = this.props;
-    // console.log(data);
     const canvas = this.canvasRef.current;
     const ctx = canvas.getContext('2d');
     canvas.width = canvas.offsetWidth;
@@ -34,7 +33,7 @@ export default class TspCanvas extends Component {
     }
   }
 
-  static drawPoint(ctx, point) {
+  drawPoint(ctx, point) {
     ctx.beginPath();
     ctx.arc(point.x, point.y, 5, 0, 2 * Math.PI, false);
     ctx.fillStyle = '#f04e44';
@@ -42,7 +41,7 @@ export default class TspCanvas extends Component {
     ctx.closePath();
   }
 
-  static drawPath(ctx, arr) {
+  drawPath(ctx, arr) {
     ctx.strokeStyle = 'rgba(240,10,10,0.5)';
     ctx.lineWidth = 2;
     ctx.beginPath();
