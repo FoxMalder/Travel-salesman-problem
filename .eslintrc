@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "extends": [
+    //"eslint:recommended",
+    //"plugin:react/recommended",
+    "eslint-config-airbnb"
+  ],
+  "rules": {
+    "no-set-state": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+  },
+  
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "document": false
+  },
+}
