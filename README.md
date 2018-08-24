@@ -3,3 +3,7 @@
 ![](./images/demo-1.png)
 
 ![](./images/demo-2.png)
+
+* git clone https://github.com/FoxMalder/Travel-salesman-problem.git && cd Travel-salesman-problem
+* npm i
+* npm start

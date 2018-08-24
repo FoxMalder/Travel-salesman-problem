@@ -5,7 +5,6 @@ import Chart from './components/Chart';
 import { randomPoint, isNumeric } from './utils/utils';
 import ErrorBoundary from './components/ErrorBoundary';
 import anneal from './utils/anneal';
-// import { AppProvider, Context } from './context/AppContext';
 
 import './css/App.css';
 
